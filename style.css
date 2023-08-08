@@ -1,10 +1,20 @@
 body{
-    background-color: black;
+    background-color: rgb(245, 241, 236);
 }
 img{width: 400px}
- header{
-    background-color: black
+header{
+    background-color: black;
     /*cor de fundo*/
-    clo
-
+    color: rgb(204, 225, 243);
+    /* cor de texto*/
+    text-align: center;
+    padding: 4px;
+}
+footer{
+    background-color: black;
+    /*cor de fundo*/
+    color: antiquewhite;
+    /* cor de texto */
+    text-align: center;
+    padding: 4px; 
 }
