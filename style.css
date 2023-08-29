@@ -1,5 +1,7 @@
 body{
     background-color: rgb(245, 241, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
 }
 img{width: 400px}
 header{
@@ -17,4 +19,26 @@ footer{
     /* cor de texto */
     text-align: center;
     padding: 4px; 
+}
+.container{
+    display: block;
+    border-style: double;
+    border-style: black;
+}
+.text{
+    flex: 2;
+    padding: 6%;
+}
+.imagem{
+    flex: 3%;
+    text-align: right;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+a:hover{
+    color:aqua;
+}
+a{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
